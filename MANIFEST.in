@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include absensi *.css
+recursive-include absensi *.csv
+recursive-include absensi *.html
+recursive-include absensi *.ico
+recursive-include absensi *.js
+recursive-include absensi *.json
+recursive-include absensi *.md
+recursive-include absensi *.png
+recursive-include absensi *.py
+recursive-include absensi *.svg
+recursive-include absensi *.txt
+recursive-exclude absensi *.pyc
